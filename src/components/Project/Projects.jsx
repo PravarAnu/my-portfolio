@@ -2,11 +2,12 @@ import Project from "./Project";
 import allProjects from "./projectList";
 
 
+
 export default function Projects() {
     return (
         <div className="Project-bg">
             <section id="projects">
-                <h2>Projects I'm proud of</h2>
+                <h2>Some Projects I'm Proud of</h2>
                 
                 {
                     allProjects.map( (project) => 

@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function Header() {
     return (
         <nav>
@@ -21,7 +23,7 @@ export default function Header() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/13qZGG_5mxJJek_PoJGuPuzLAnuDGXlNX/view?usp=sharing" class="button" target="_blank" rel="noreferrer">Resume</a>
+                    <Link to="/resume" className="button" >Resume</Link>
                 </li>
             </ul>
         </nav>

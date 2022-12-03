@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "edu tecSkill"
+        "edu tecSkill"
+        "edu proj"
+        "wrk proj"
+        "ach proj"
+        "sftS proj"
+        "int proj"
+        "lan proj"
+        "perI proj";
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.heading {
+    text-decoration: underline;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    color: rgb(53, 53, 54);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.sub-sub-heading {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 4px;
+    color: rgb(33, 33, 34);
+}
+
+.sub-sub-heading>span {
+    font-weight: 500;
+}
+
+
+
+/* HEADER PART */
+.head-part {
+    text-align: center;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+
+/* INFORMATION */
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.icon {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+/* MAIN CONTENT */
+
+.main-content,
+.career-objective,
+.educational-qualification,
+.skills,
+.experience,
+.projects,
+.achievements,
+.soft-skills,
+.interest,
+.language,
+.personal-details {
+    margin: 1rem;
+}
+
+.educational-qualification {
+    grid-area: edu;
+}
+
+.skills {
+    grid-area: tecSkill;
+}
+
+.experience {
+    grid-area: wrk;
+}
+
+.projects {
+    grid-area: proj;
+}
+
+.achievements {
+    grid-area: ach;
+}
+
+.soft-skils {
+    grid-area: sftS;
+}
+
+.interest {
+    grid-area: int;
+}
+
+.language {
+    grid-area: lan;
+}
+
+.personal-details {
+    grid-area: perI;
+}
+
+
+
+ul {
+    margin-left: 15px;
+    list-style-type: disc;
+}
+
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+.project>.sub-heading {
+    font-size: 1.3rem;
+    border-bottom: 1px solid gray;
+    
+}
+
+.project .sub-sub-heading{
+    color: rgb(63, 64, 65);
+}
+
+.project .sub-sub-heading>span{
+    color: black;
+}
