@@ -1,0 +1,60 @@
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap:1rem;
+}
+
+h3{
+    margin: 0.5rem;
+}
+
+
+
+.project {
+    color: black;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.proj-img {
+    width: 300px;
+    margin: 0.1rem;
+    padding: 0.5rem;
+}
+
+.proj-heading {
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+}
+
+.proj-description {
+    text-align: justify;
+    padding: 0 1rem
+}
+
+.icon {
+    display: inline-block;
+    width: 80px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.proj-tech{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+}
+
+
+.head-icon{
+    display: inline-block;
+    padding:0.5rem;
+    margin:0.5rem;
+}

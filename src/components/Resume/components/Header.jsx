@@ -16,17 +16,17 @@ function Header() {
                 </p>
                 <p className="imp-links">
                     <span className="email icon">
-                        <a href="mailto:pravaranu6@gmail.com">
+                        <a className="conn" href="mailto:pravaranu6@gmail.com">
                             <i className="fa-solid fa-envelope"></i>
                         </a>
                     </span>
                     <span className="github icon">
-                        <a href="https://github.com/PravarAnu">
+                        <a className="conn" href="https://github.com/PravarAnu">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </span>
                     <span className="linkedin icon">
-                        <a href="https://www.linkedin.com/in/pravaranu/">
+                        <a className="conn" href="https://www.linkedin.com/in/pravaranu/">
                             <i className="fa-brands fa-linkedin"></i>
                         </a>
                     </span>

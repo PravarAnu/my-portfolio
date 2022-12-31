@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    color: black;
 }
 
-body{
+
+.main{
     margin-left: 1rem;
     margin-right: 1rem;
     border: 1px solid red;
     background-color: white;
+    color: black;
 }
 
 .wrapper {
@@ -97,7 +97,7 @@ hr {
 .educational-qualification,
 .skills,
 .experience,
-.projects,
+.re-projects,
 .achievements,
 .soft-skills,
 .interest,
@@ -118,7 +118,7 @@ hr {
     grid-area: wrk;
 }
 
-.projects {
+.re-projects {
     grid-area: proj;
 }
 
@@ -150,28 +150,28 @@ ul {
 }
 
 
-a:link {
+a.conn:link {
     color: black;
 }
 
-a:visited {
+a.conn:visited {
     color: black;
 }
 
-a:hover {
+a.conn:hover {
     border-bottom: 2px solid rgb(7, 7, 7);
 }
 
-.project>.sub-heading {
+.re-project>.sub-heading {
     font-size: 1.3rem;
     border-bottom: 1px solid gray;
     
 }
 
-.project .sub-sub-heading{
+.re-project .sub-sub-heading{
     color: rgb(63, 64, 65);
 }
 
-.project .sub-sub-heading>span{
+.re-project .sub-sub-heading>span{
     color: black;
 }
