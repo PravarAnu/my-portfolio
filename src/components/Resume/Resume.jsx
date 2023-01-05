@@ -14,22 +14,25 @@ import PersonalDetails from "./components/PersonalDetails";
 export default function Resume() {
     return (
         <div className="main">
-            <Header />
-            <div className="main-content">
-                <CareerObjective />
-                
-                <div className="wrapper">
-                    <EducationalDetails/>
-                    <Skills/>
-                    <Experience/>
-                    <Projects/>
-                    <Achievements/>
-                    <SoftSkills/>
-                    <Interests/>
-                    <Languages/>
-                    <PersonalDetails/>
-                </div>
+            <div className="resume">
 
+                <Header />
+                <div className="main-content">
+                    <CareerObjective />
+                    
+                    <div className="wrapper">
+                        <EducationalDetails/>
+                        <Skills/>
+                        <Experience/>
+                        <Projects/>
+                        <Achievements/>
+                        <SoftSkills/>
+                        <Interests/>
+                        <Languages/>
+                        <PersonalDetails/>
+                    </div>
+
+                </div>
             </div>
 
         </div>

@@ -1,27 +1,30 @@
 const projects = [
     {
+        name: "Peronal Portfolio",
+        description: "Portfolio is a must do project for a web developer to show their skills. Here all my projects are shown which are both solo or group made.",
+        techUsed: "HTML, CSS, Javascript, React, NodeJs",
+        contribution: "The project is made by myself"
+    },
+    {
         name: "Live News Scraper",
-        description: "This webpage shows you the latest news headlines from many other news websites at one place.",
-        techUsed: "Html, Css, Python, Django, BeautifulSoup",
-        contribution: "I developed the backend part and implemented the beautiful-soup in the webpage."
+        description:"This webpage shows you the latest news headlines from many other news websites at one place.",
+        techUsed: "HTML, CSS, Python, Django, BeautifulSoup",
+        contribution:
+            "I developed the backend part and used the beautiful-soup for parsing headlines."
     },
     {
         name: "Human Skintone Detector",
-        description: "This webpage shows you the skintone of human portrait (Fair, Mild, Dark).",
-        techUsed: "Html, Css, Javascript, Python, Django, Bootstrap, ML",
-        contribution:"I developed the whole backend part"
+        description:
+            "This webpage shows you the skintone of human portrait (Fair, Mild, Dark).",
+        techUsed: "HTML, CSS, Javascript, Python, Django, Bootstrap, ML",
+        contribution: "I worked on the frontend as well as backend part"
     },
     {
         name: "Minesweeper Game",
-        description: "Minesweeper is a single-player puzzle game. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighbouring mines in each field.",
+        description:
+            "Minesweeper is a single-player puzzle game. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighbouring mines in each field.",
         techUsed: "C++",
-        contribution: "All the things are made by me." 
-    },
-    {
-        name: "To Do App",
-        description: "This web app is used for making daily to-do list.",
-        techUsed: "Html, Css, Javascript, MERN",
-        contribution: "In this project all the things are made by me."
+        contribution: "All the things are made by myself"
     }
 ]
 
@@ -118,8 +121,8 @@ const personalDetails = [
         value: "Nutan Kumari"
     },
     {
-        title: "Current Address or Mailing Address: ",
-        value: "Ward No.10, Naokothi, Begusarai"
+        title: "Current Address ",
+        value: "Bangalore, Karnataka, INDIA"
     },
 ]
 

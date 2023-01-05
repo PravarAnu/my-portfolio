@@ -8,26 +8,31 @@ function Header() {
             
             <div className="information">
                 <p className="address">
-                    <i className="fa-solid fa-location-dot"></i> Begusarai, Bihar, India |
+                    <i className="fa-solid fa-location-dot"></i> Bangalore, Karnataka, INDIA |
                     &nbsp;
                 </p>
                 <p className="phone">
                     <i className="fa-solid fa-phone"></i> +91 7368098223 |{" "}
                 </p>
                 <p className="imp-links">
-                    <span className="email icon">
-                        <a className="conn" href="mailto:pravaranu6@gmail.com">
+                    <span className="email re-icon">
+                        <a className="conn" title="Mail Me" href="mailto:pravaranu6@gmail.com">
                             <i className="fa-solid fa-envelope"></i>
                         </a>
                     </span>
-                    <span className="github icon">
-                        <a className="conn" href="https://github.com/PravarAnu">
+                    <span className="github re-icon">
+                        <a className="conn" title="My Github Profile" href="https://github.com/PravarAnu">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </span>
-                    <span className="linkedin icon">
-                        <a className="conn" href="https://www.linkedin.com/in/pravaranu/">
+                    <span className="linkedin re-icon">
+                        <a className="conn" title="My LinkedIn Profile" href="https://www.linkedin.com/in/pravaranu/">
                             <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                    </span>
+                    <span className="portfolio re-icon">
+                        <a className="conn" title="My Portfolio" href="https://github.com/PravarAnu">
+                            <i class="fa-solid fa-user"></i>
                         </a>
                     </span>
                 </p>

@@ -7,9 +7,9 @@ export default function Header() {
                 <li><h1>
                     <a href="/">Pravar Anu</a>
                 </h1></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="/#projects">Projects</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#contact">Contact</a></li>
                 <li>
                     <a href="https://www.linkedin.com/in/pravaranu/">
                         <span className="fab fa-linkedin-in" aria-hidden="true"></span>
@@ -23,7 +23,7 @@ export default function Header() {
                     </a>
                 </li>
                 <li>
-                    <Link to="/resume" className="button" >Resume</Link>
+                    <Link to="/resume" target="_blank" className="button" >Resume</Link>
                 </li>
             </ul>
         </nav>

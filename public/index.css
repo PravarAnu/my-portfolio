@@ -211,13 +211,11 @@ nav h1 [class*="fa-"] {
 
 .more-proj {
     text-align: center;
-
-
 }
 
-.more-proj .mail {
+.more-proj .mr-prj {
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -237,20 +235,22 @@ nav h1 [class*="fa-"] {
     text-align: center;
 }
 
-.mail {
+.mail, .mr-prj {
+    display: inline-block;
     text-decoration: none;
     color: var(--creamy-white);
     background-color: var(--magenta);
     font-family: var(--mono);
-    padding: 0.4rem;
+    padding:0.4rem;
     border-radius: 5px;
 }
+
 
 .contact-mail {
     margin: 2rem 0 1rem 0;
 }
 
-.mail:hover {
+.mail:hover, .mr-prj:hover {
     background-color: rgb(231, 43, 206);
 }
 

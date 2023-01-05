@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Project from "./Project";
 import allProjects from "./projectList";
 
@@ -17,13 +18,15 @@ export default function Projects() {
                         technology={project.technology}
                         imgSrc={project.imgSrc}
                         imgAlt={project.imgAlt}
+                        isLive={project.isLive}
+                        liveLink={project.liveLink}
                     />
                 ))}
             </section>
             <p className="more-proj">
-                <a class="mail" href="/projects">
+                <Link className="mr-prj" to="/projects">
                     More Projects
-                </a>
+                </Link>
             </p>
         </div>
     );
