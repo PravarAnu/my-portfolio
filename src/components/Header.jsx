@@ -23,7 +23,7 @@ export default function Header() {
                     </a>
                 </li>
                 <li>
-                    <Link to="/resume" target="__blank" className="button">Resume</Link>
+                    <Link to="/resume" target="_blank" className="button">Resume</Link>
                 </li>
             </ul>
         </nav>
