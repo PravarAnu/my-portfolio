@@ -1,4 +1,4 @@
-import { personalDetails } from "../resumeData";
+import { personalDetails } from "./resumeData";
 
 function PersonalDetails() {
     return (

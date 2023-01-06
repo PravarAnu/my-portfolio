@@ -1,4 +1,4 @@
-import { education } from "../resumeData";
+import { education } from "./resumeData";
 
 function EducationalDetails(){
     return (

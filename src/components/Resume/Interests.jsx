@@ -1,4 +1,4 @@
-import { interests } from "../resumeData";
+import { interests } from "./resumeData";
 
 function Interests() {
     return (

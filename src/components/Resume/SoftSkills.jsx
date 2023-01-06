@@ -1,4 +1,4 @@
-import {softSkills} from "../resumeData";
+import {softSkills} from "./resumeData";
 
 function SoftSkills() {
     return (

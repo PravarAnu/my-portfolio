@@ -1,4 +1,4 @@
-import {experience} from "../resumeData";
+import {experience} from "./resumeData";
 
 function Experience() {
     return(

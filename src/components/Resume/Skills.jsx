@@ -1,4 +1,4 @@
-import {skills} from "../resumeData";
+import {skills} from "./resumeData";
 
 function Skills(){
     return(

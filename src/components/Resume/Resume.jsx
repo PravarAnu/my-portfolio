@@ -1,15 +1,15 @@
 import "./Resume.css";
-import Header from "./components/Header";
-import CareerObjective from "../Resume/components/CareerObjective";
-import EducationalDetails from "./components/EducationalDetails";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Achievements from "./components/Achievements";
-import SoftSkills from "./components/SoftSkills";
-import Interests from "./components/Interests";
-import Languages from "./components/Languages";
-import PersonalDetails from "./components/PersonalDetails";
+import Header from "./Header";
+import CareerObjective from "./CareerObjective";
+import EducationalDetails from "./EducationalDetails";
+import Skills from "./Skills";
+import Experience from "./Experience";
+import Projects from "./Projects";
+import Achievements from "./Achievements";
+import SoftSkills from "./SoftSkills";
+import Interests from "./Interests";
+import Languages from "./Languages";
+import PersonalDetails from "./PersonalDetails";
 
 export default function Resume() {
     return (

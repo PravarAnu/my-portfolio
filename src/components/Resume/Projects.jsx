@@ -1,4 +1,4 @@
-import { projects } from "../resumeData"
+import { projects } from "./resumeData"
 
 function Projects() {
     return (

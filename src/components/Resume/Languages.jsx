@@ -1,4 +1,4 @@
-import { languages } from "../resumeData";
+import { languages } from "./resumeData";
 
 function Languages() {
     return (

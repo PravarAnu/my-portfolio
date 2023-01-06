@@ -1,4 +1,4 @@
-import {achievements} from "../resumeData";
+import {achievements} from "./resumeData";
 
 function Achievements() {
     return (
