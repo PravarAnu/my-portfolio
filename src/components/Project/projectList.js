@@ -7,7 +7,7 @@ const projects = [
         contribution: "The whole project is made by me",
         description: "Portfolio is a must do project for a web developer to show their skills. Here all my projects are shown which are both solo or group made.",
         projectLink: "https://github.com/PravarAnu/my-portfolio",
-        liveLink: "",
+        liveLink: "https://pravaranu.vercel.app/",
         technology: ["HTML", "CSS", "Javascript", "React", "NodeJS"],
         isLive: true,
         imgSrc: "./images/portfolio.jpg",
