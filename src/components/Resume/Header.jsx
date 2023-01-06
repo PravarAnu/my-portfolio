@@ -31,7 +31,7 @@ function Header() {
                         </a>
                     </span>
                     <span className="portfolio re-icon">
-                        <a className="conn" title="My Portfolio" href="https://github.com/PravarAnu">
+                        <a className="conn" title="My Portfolio" href="https://pravaranu.vercel.app/">
                             <i class="fa-solid fa-user"></i>
                         </a>
                     </span>
