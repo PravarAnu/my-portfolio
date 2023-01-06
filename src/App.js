@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/Resume";
+import MyResume from "./components/Resume/MyResume";
 import AllProjects from "./components/Project/AllProjects"
 import {Routes, Route} from "react-router-dom";
 
@@ -28,7 +28,7 @@ function App() {
             
             <Routes>
                 <Route path="/" element = {<Home/>} />
-                <Route path="resume" element = { <Resume/> } />
+                <Route path="resume" element = { <MyResume/> } />
                 <Route path="projects" element = { <AllProjects/> } />
             </Routes>
         </div>

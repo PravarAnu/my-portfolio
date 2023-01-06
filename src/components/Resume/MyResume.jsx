@@ -1,4 +1,4 @@
-import "./Resume.css";
+import "./MyResume.css";
 import Header from "./Header";
 import CareerObjective from "./CareerObjective";
 import EducationalDetails from "./EducationalDetails";
