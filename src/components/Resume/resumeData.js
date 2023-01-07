@@ -6,6 +6,18 @@ const projects = [
         contribution: "The project is made by myself"
     },
     {
+        name:"Keeper App",
+        description: "This project works like google keep app where you take note with the features of add & delete. This project is fully developed using React.",
+        techUsed: "HTML, CSS, Javascript, React, NodeJs",
+        contribution: "This project is made by myself"
+    },
+    {
+        name: "TO DO App",
+        decription: "It allows users to manage their daily tasks and you can also make a dedicated tab such as a list for household, fruits & vegetables, etc. This project is connected with MongoDB Atlas for accessibility from any device.",
+        techUsed: "HTML, CSS, JavaScript, Express, NodeJs, MongoDB",
+        contribution: "This project is made by myself. I used mongoose library for ease in use of MongoDB"
+    },
+    {
         name: "Live News Scraper",
         description:"This webpage shows you the latest news headlines from many other news websites at one place.",
         techUsed: "HTML, CSS, Python, Django, BeautifulSoup",
