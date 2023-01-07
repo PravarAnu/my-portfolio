@@ -1,6 +1,6 @@
 const projects = [
     {
-        name: "Peronal Portfolio",
+        name: "Personal Portfolio",
         description: "Portfolio is a must do project for a web developer to show their skills. Here all my projects are shown which are both solo or group made.",
         techUsed: "HTML, CSS, Javascript, React, NodeJs",
         contribution: "The project is made by myself"
