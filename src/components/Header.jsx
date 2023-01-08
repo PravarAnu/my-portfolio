@@ -11,13 +11,13 @@ export default function Header() {
                 <li><a href="/#about">About</a></li>
                 <li><a href="/#contact">Contact</a></li>
                 <li>
-                    <a href="https://www.linkedin.com/in/pravaranu/">
+                    <a href="https://www.linkedin.com/in/pravaranu/" rel="noreferrer" target="_blank">
                         <span className="fab fa-linkedin-in" aria-hidden="true"></span>
                         <span className="sr-only">LinkedIn</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/PravarAnu">
+                    <a href="https://github.com/PravarAnu" rel="noreferrer" target="_blank" >
                         <span className="fab fa-github" aria-hidden="true"></span>
                         <span className="sr-only">Github</span>
                     </a>
