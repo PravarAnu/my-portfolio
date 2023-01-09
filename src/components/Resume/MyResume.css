@@ -177,3 +177,15 @@ a.conn:hover {
 .re-project .sub-sub-heading>span{
     color: black;
 }
+
+a.email-me{
+    text-decoration: none;
+}
+
+a.email-me:active{
+    color:black;
+}
+
+a.email-me:link{
+    color: black;
+}

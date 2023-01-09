@@ -12,14 +12,20 @@ function Header() {
                     &nbsp;
                 </p>
                 <p className="phone">
-                    <i className="fa-solid fa-phone"></i> +91 7368098223 |{" "}
+                    <i className="fa-solid fa-phone"></i> +91 7368098223 |
+                    &nbsp;
+                </p>
+                <p>
+                    <a className="email-me" title="Mail Me" href="mailto:pravaranu6@gmail.com">
+                            <i className="fa-solid fa-envelope"></i> pravaranu6@gmail.com | 
+                    </a>
                 </p>
                 <p className="imp-links">
-                    <span className="email re-icon">
+                    {/* <span className="email re-icon">
                         <a className="conn" title="Mail Me" href="mailto:pravaranu6@gmail.com">
                             <i className="fa-solid fa-envelope"></i>
                         </a>
-                    </span>
+                    </span> */}
                     <span className="github re-icon">
                         <a className="conn" title="My Github Profile" href="https://github.com/PravarAnu">
                             <i className="fa-brands fa-github"></i>
