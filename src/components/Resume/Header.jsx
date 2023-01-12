@@ -8,16 +8,16 @@ function Header() {
             
             <div className="information">
                 <p className="address">
-                    <i className="fa-solid fa-location-dot"></i> Bangalore, Karnataka, INDIA |
+                    <i className="fa-solid fa-location-dot"></i> Bangalore, Karnataka, INDIA<span className="vert-line"> | </span>
                     &nbsp;
                 </p>
                 <p className="phone">
-                    <i className="fa-solid fa-phone"></i> +91 7368098223 |
+                    <i className="fa-solid fa-phone"></i> +91 7368098223<span className="vert-line"> | </span>
                     &nbsp;
                 </p>
                 <p>
                     <a className="email-me" title="Mail Me" href="mailto:pravaranu6@gmail.com">
-                            <i className="fa-solid fa-envelope"></i> pravaranu6@gmail.com | 
+                            <i className="fa-solid fa-envelope"></i> pravaranu6@gmail.com<span className="vert-line"> | </span>
                     </a>
                 </p>
                 <p className="imp-links">

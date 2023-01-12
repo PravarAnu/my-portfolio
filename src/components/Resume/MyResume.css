@@ -189,3 +189,49 @@ a.email-me:active{
 a.email-me:link{
     color: black;
 }
+
+
+
+@media (max-width: 576px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "edu"
+            "wrk"
+            "tecSkill"
+            "proj"
+            "ach"
+            "int"
+            "sftS"
+            "lan"
+            "perI";
+    }
+
+    .information {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .vert-line{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px){
+    .information {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .vert-line{
+        visibility: hidden;
+    }
+}
