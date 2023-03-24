@@ -35,7 +35,7 @@ const projects = [
         contribution: "I developed the backend part and implemented the beautiful-soup in the webpage.",
         description:"This is a group project which is developed during my internship at Verzeo. As the name suggests the project do the same thing (i.e If you give an image of a person then the web tells you the skintone of that person). There are three categories of skintone 'Fair', 'Mild', 'Dark'",
         liveLink:"",
-        projectLink:"https://frontendmasters.github.io/grid-flexbox-v2/",
+        projectLink:"https://github.com/PravarAnu/MajorProject/tree/master/Verzeo",
         technology:["HTML", "CSS", "Django", "Python", "SQLite"],
         isLive:false,
         imgSrc:"./images/skintone.jpg",
