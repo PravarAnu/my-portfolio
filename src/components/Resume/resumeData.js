@@ -5,6 +5,9 @@ const projects = [
             "Portfolio is a must do project for a web developer to show their skills. Here all my projects are shown which are both solo or group made.",
         techUsed: "HTML, CSS, Javascript, React, NodeJs",
         contribution: "The project is made by myself",
+        projectLink: "https://github.com/PravarAnu/my-portfolio",
+        liveLink: "https://pravaranu.vercel.app/",
+        isLive: true,
     },
     {
         name: "Keeper App",
@@ -12,6 +15,9 @@ const projects = [
             "This project works like google keep app where you take note with the features of add & delete. This project is fully developed using React.",
         techUsed: "HTML, CSS, Javascript, React, NodeJs",
         contribution: "This project is made by myself",
+        projectLink: "",
+        liveLink: "",
+        isLive: false,
     },
     {
         name: "TO DO App",
@@ -20,6 +26,9 @@ const projects = [
         techUsed: "HTML, CSS, JavaScript, Express, NodeJs, MongoDB",
         contribution:
             "This project is made by myself. I used mongoose library for ease in use of MongoDB",
+        projectLink: "",
+        liveLink: "",
+        isLive: false
     },
     {
         name: "Live News Scraper",
@@ -28,6 +37,9 @@ const projects = [
         techUsed: "HTML, CSS, Python, Django, BeautifulSoup",
         contribution:
             "I developed the backend part and used the beautiful-soup for parsing headlines.",
+        projectLink: "https://github.com/PravarAnu/Live-News-Scraper",
+        liveLink: "",
+        isLive: false,
     },
     {
         name: "Human Skintone Detector",
@@ -35,6 +47,9 @@ const projects = [
             "This webpage shows you the skintone of human portrait (Fair, Mild, Dark).",
         techUsed: "HTML, CSS, Javascript, Python, Django, Bootstrap, ML",
         contribution: "I worked on the frontend as well as backend part",
+        liveLink:"",
+        projectLink:"https://frontendmasters.github.io/grid-flexbox-v2/",
+        isLive:false,
     },
     {
         name: "Minesweeper Game",
@@ -42,6 +57,8 @@ const projects = [
             "Minesweeper is a single-player puzzle game. The objective of the game is to clear a rectangular board containing hidden 'mines' or bombs without detonating any of them, with help from clues about the number of neighbouring mines in each field.",
         techUsed: "C++",
         contribution: "All the things are made by myself",
+        liveLink:"",
+        projectLink:"https://github.com/PravarAnu/Minesweeper",
     },
 ];
 

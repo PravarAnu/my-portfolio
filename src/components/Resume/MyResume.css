@@ -43,11 +43,25 @@ hr {
 }
 
 .sub-heading {
+    display: flex;
+    justify-content: space-between;
     color: rgb(53, 53, 54);
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 3px;
+}
+
+.sub-heading > a{
+    margin: auto 100px auto auto;
+}
+
+.sub-heading > a:link{
+    color:black;
+}
+
+.sub-heading > a:visited{
+    color:black;
 }
 
 .sub-sub-heading {
