@@ -15,7 +15,7 @@ const projects = [
             "This project works like google keep app where you take note with the features of add & delete. This project is fully developed using React.",
         techUsed: "HTML, CSS, Javascript, React, NodeJs",
         contribution: "This project is made by myself",
-        projectLink: "",
+        projectLink: "https://github.com/PravarAnu/Keeper-App",
         liveLink: "",
         isLive: false,
     },
@@ -26,7 +26,7 @@ const projects = [
         techUsed: "HTML, CSS, JavaScript, Express, NodeJs, MongoDB",
         contribution:
             "This project is made by myself. I used mongoose library for ease in use of MongoDB",
-        projectLink: "",
+        projectLink: "https://github.com/PravarAnu/TO-DO-APP",
         liveLink: "",
         isLive: false
     },
@@ -48,7 +48,7 @@ const projects = [
         techUsed: "HTML, CSS, Javascript, Python, Django, Bootstrap, ML",
         contribution: "I worked on the frontend as well as backend part",
         liveLink:"",
-        projectLink:"https://frontendmasters.github.io/grid-flexbox-v2/",
+        projectLink:"https://github.com/PravarAnu/MajorProject/tree/master/Verzeo",
         isLive:false,
     },
     {
